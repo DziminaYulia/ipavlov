@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    background-color: #DA7D00;
+}
+nav {
+    background-color: #000000; 
+    padding: 10px 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 120px;
+    text-align: center;
+}
+
+nav a:hover {
+    background: #ff6600; 
+}
+
+
+.aboba article{
+   border: 10px double black;
+   width: 260px;
+   text-align: center;
+   padding: 20px;
+   flex-wrap: wrap;
+   align-items: center;
+
+}
+
+img{
+    width: 150px;
+}
+
+article p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+
+.aboba{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.vstavka{
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom:7px;
+    margin-bottom: 20px;
+}
+
+.portal{
+    background-image: linear-gradient(#046686,#012936);
+}
+
+.portal2{
+    background-image: linear-gradient(#29363a,rgb(57, 160, 194),#266378);
+}
+
+.hlbs{
+    background-color: #323ea8;
+}
+
+.hlof{
+    background-color: rgb(21, 105, 21);
+}
+
+.hlalyx{
+    background-image: linear-gradient(#9aa0d6,#282736,#615d91);
+}
+
+.Entropy{
+    background-image:linear-gradient(black,blue,black) ;
+}
+
+.entropy2{
+  background-image: linear-gradient(rgb(236, 158, 158),rgb(197, 54, 54),white);
+}
+
+.blackmesa{
+    background-image: linear-gradient(#ffa200,#c8c955);
+}
+
+.hlep2{
+    background-image: linear-gradient(#84b0a5,#9ca19f,#19201e);
+}
+
+.half-life1{
+    
+    background-color: #da3e00;
+}
+
+.hl2{
+
+    background-image: linear-gradient(lightblue,white);
+}
+
+.hlep1{
+    background-image: linear-gradient(#fc4503,#ff9933,#9c5005);
+
+}
+
+article:hover{
+    transform: scale(1.08);
+    transition:0.5s ease-in ;
+}
+
+footer {
+    background-color: #000000; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ff6600; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
